@@ -6,9 +6,6 @@ username = input("Enter your username or e-mail: ")
 password = input("Enter your password: ")
 class twitterBot:
     def __init__(self,username,password):
-        self.loop = None
-        self.seconds = None
-        self.tweet = None
         self.username = username
         self.password = password
     def autoTweet(self,loop,seconds,tweet=[]):
