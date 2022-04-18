@@ -2,7 +2,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-username = input("Enter your username or password: ")
+username = input("Enter your username or e-mail: ")
 password = input("Enter your password: ")
 class twitterBot:
     def __init__(self,username,password):
